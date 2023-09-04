@@ -8,9 +8,16 @@ function raffle() {
   const max = Math.floor(document.querySelector("#and").value);
 
   const result = Math.floor(Math.random() * (max - min + 1)) + min;
-  //alerte 
+
+  if(max <= min) {
+    //alerte 
+  window.alert("Erro, o valor minimo tem que ser menor que o valor maxiomo ")
+  }
+  else{
+    window.alert(result)
+  }
 
   
-  window.alert(result)
 }
+
 raffleButton.addEventListener("click", raffle)
