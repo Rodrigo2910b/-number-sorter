@@ -9,9 +9,9 @@ function raffle() {
 
   const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-  if(max <= min) {
+  if(min >= max) {
     //alerte 
-  window.alert("Erro, o valor minimo tem que ser menor que o valor maxiomo ")
+  window.alert("Erro, o valor maximo tem que ser maior que o valor maximo ")
   }
   else{
     window.alert(result)
