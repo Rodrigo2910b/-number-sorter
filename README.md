@@ -16,13 +16,13 @@ Este é um simples site que permite aos usuários sortear um número dentro de u
 O site é responsivo e ajusta seu layout para tamanhos de tela diferentes:
 
 - **Telas maiores (acima de 414px):** O design padrão do site, com imagens maiores e campos de entrada mais espaçados.
-![Desktop](img/desktop.png)
+<img src="https://github.com/Rodrigo2910b/-number-sorter/blob/master/img/desk-top.jpeg?raw=true"/> 
 
 - **Telas médias (320px - 414px):** O tamanho das imagens e campos de entrada é reduzido para otimizar a experiência.
-![Tablet](img/tablet.png)
+<img src="https://github.com/Rodrigo2910b/-number-sorter/blob/master/img/mobile.jpeg?raw=true"/>
 
 - **Telas pequenas (até 320px):** A versão para smartwatches, com um layout simplificado para melhor legibilidade em telas pequenas.
-![Smartwatch](img/smartwatch.png)
+<img src="https://github.com/Rodrigo2910b/-number-sorter/blob/master/img/smart-watch.jpeg?raw=true"/>
 
 ## Pré-requisitos
 
